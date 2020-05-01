@@ -80,7 +80,3 @@ url: https://whattocooktoday.com/chinese-scallion-pancakes.html
 ### Serving
 
 1. Serve immediately with dipping sauce on the side.
-
-## Adjustments
-
-N/A
