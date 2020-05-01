@@ -79,7 +79,7 @@ For pancakes:
 
 ### Serving
 
-1. Serve immediately with dipping sauce.
+1. Serve immediately with dipping sauce on the side.
 
 ## Adjustments
 
