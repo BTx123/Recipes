@@ -25,7 +25,7 @@ url: https://whattocooktoday.com/chinese-scallion-pancakes.html
 
 ## Ingredients
 
-For dipping sauce:
+**For dipping sauce:**
 
 * 2 tbsp soy sauce
 * 2 tbsp rice vinegar
@@ -33,13 +33,13 @@ For dipping sauce:
 * 1/2 red chili paste (optional)
 * 2 tbsp sugar
 
-For oil-flour mixture:
+**For oil-flour mixture:**
 
 * 2 tbsp lard/schmaltz (substitute with coconut oil or butter), melted
 * 2 tbsp all-purpose flour
 * 1/4 tsp salt
 
-For pancakes:
+**For pancakes:**
 
 * 2 cups all-purpose flour
 * 1/2 tsp salt
