@@ -2,6 +2,7 @@
 servings: 1
 active: 5
 total: 5
+my-rating: 4.5
 url: https://fitfoodiefinds.com/raspberry-ginger-mojitos/
 ---
 
