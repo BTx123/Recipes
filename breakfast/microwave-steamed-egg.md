@@ -2,8 +2,8 @@
 servings: 1
 active: 5
 total: 5
-my-rating: 3
-url:
+rating: 3
+url: https://www.youtube.com/watch?v=fe3Vr8Pz-DM&t=11s
 ---
 
 # Microwave Steamed Egg

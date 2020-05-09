@@ -2,7 +2,7 @@
 servings: 8
 total: 75
 active: 45
-my-rating: 4
+rating: 4
 url: https://whattocooktoday.com/chinese-scallion-pancakes.html
 ---
 
