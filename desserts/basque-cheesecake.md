@@ -25,12 +25,12 @@ I made the recipe in a 9-inch springform pan instead of a 10-inch, so I had extr
 
 * unsalted butter (for pan)
 * 2 lb cream cheese, room temperature (leave on countertop, at least 2 hours)
-* 1.5 c sugar
+* 1 1/2 cup sugar
 * 6 large eggs
-* 2 c heavy cream
-* 1 tsp kosher salt
-* 1 tsp vanilla extract
-* 1/3 c all-purpose flour
+* 2 cup heavy cream
+* 1 teaspoon kosher salt
+* 1 teaspoon vanilla extract
+* 1/3 cup all-purpose flour
 
 ## Steps
 

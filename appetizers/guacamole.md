@@ -21,10 +21,10 @@ tags:
 * 3 large avocados (or 5 small ones), pitted and mashed
 * 1 lime, juiced
 * Quarter of an onion, diced
-* 3 tbsp fresh stem-removed cilantro
+* 3 tablespoon fresh stem-removed cilantro
 * 1 roma tomato, diced
-* 1 tsp minced garlic
-* 1/2 tsp cayenne (optional)
+* 1 teaspoon minced garlic
+* 1/2 teaspoon cayenne (optional)
 * salt
 
 ## Steps

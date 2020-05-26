@@ -22,8 +22,8 @@ url: https://fitfoodiefinds.com/raspberry-ginger-mojitos/
 * 2 slices peeled, fresh ginger
 * 6 raspberries
 * 3 mint leaves
-* 1 oz honey syrup
-* 1.5 oz white rum
+* 1 ounce honey syrup
+* 1 1/2 ounce white rum
 * club soda
 
 ## Steps

@@ -17,10 +17,10 @@ tags:
 
 ## Ingredients
 
-* 2 oz bourbon
-* 1 oz lemon juice
-* 3/4 oz simple syrup
-* 1 egg white
+* 2 ounce bourbon
+* 1 ounce lemon juice
+* 3/4 ounce simple syrup
+* 1 white from large egg
 
 ## Steps
 
