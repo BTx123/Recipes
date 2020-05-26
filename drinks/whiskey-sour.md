@@ -1,0 +1,28 @@
+---
+servings: 1
+active: 5
+total: 5
+rating: 4.5
+url: https://www.bonappetit.com/recipe/whiskey-sour
+tags:
+---
+
+# Whiskey Sour
+
+## Tools
+
+* Cocktail Shaker
+* Jigger
+* Ice
+
+## Ingredients
+
+* 2 oz bourbon
+* 1 oz lemon juice
+* 3/4 oz simple syrup
+* 1 egg white
+
+## Steps
+
+1. Combine all ingredients in shaker with ice.
+1. Shake for 20 seconds and strain over ice.
