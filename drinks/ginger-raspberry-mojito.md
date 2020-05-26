@@ -15,6 +15,7 @@ url: https://fitfoodiefinds.com/raspberry-ginger-mojitos/
 * strainer
 * glass (pint glass, highball, etc.)
 * bar spoon
+* ice
 
 ## Ingredients
 
@@ -23,7 +24,6 @@ url: https://fitfoodiefinds.com/raspberry-ginger-mojitos/
 * 3 mint leaves
 * 1 oz honey syrup
 * 1.5 oz white rum
-* ice
 * club soda
 
 ## Steps
