@@ -3,6 +3,7 @@ import logging
 import pathlib as pl
 import click
 import re
+import json
 
 
 logging.getLogger().setLevel(logging.INFO)
@@ -110,7 +111,7 @@ def main(title, category, servings, active, total, rating, url, tags):
     # Modify arguments before writing to template
     kwargs = {k: "" if v is None else v for k, v in kwargs.items()}
     kwargs["title"] = title.title()
-    kwargs["tags"] = ", ".join(tags)
+    kwargs["tags"] = json.dumps(tags)
 
     try:
         # Create template in category directory
