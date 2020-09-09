@@ -1,4 +1,5 @@
 ---
+category: breakfast
 servings: 1
 active: 5
 total: 5

@@ -1,4 +1,5 @@
 ---
+category: desserts
 servings: 25
 active: 45
 total: 115

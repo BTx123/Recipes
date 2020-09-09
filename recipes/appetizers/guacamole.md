@@ -1,7 +1,8 @@
 ---
+category: appetizers
 servings: 4
-active:
-total:
+active: 10
+total: 10
 rating: 5
 url: https://www.allrecipes.com/recipe/14231/guacamole/
 tags:
@@ -23,7 +24,7 @@ tags:
 * Quarter of an onion, diced
 * 3 tablespoon fresh stem-removed cilantro
 * 1 roma tomato, diced
-* 1 teaspoon minced garlic
+* 1 teaspoon minced garlic (sub. with 1 teaspoon garlic powder)
 * 1/2 teaspoon cayenne (optional)
 * salt
 

@@ -24,12 +24,13 @@ DEFAULT_SETTINGS = {
 
 TEMPLATE = \
     """---
+category: {category}
 servings: {servings}
 active: {active}
 total: {total}
 rating: {rating}
 url: {url}
-tags:
+tags: {tags}
 ---
 
 # {title}
@@ -101,28 +102,34 @@ URL = UrlParamType()
 @click.option("--active", type=click.IntRange(min=0), help="Active cooking time.")
 @click.option("--total", "-t", type=click.IntRange(min=0), help="Total cooking time.")
 @click.option("--rating", "-r", type=click.FloatRange(min=0, max=5), help="Rating for recipe.")
-@click.option("--url", "-u", type=URL, help="URL recipe was originally found at.")
-def main(title, category, servings, active, total, rating, url):
+@click.option("--url", "-u", type=URL, help="URL recipe was originally found at or based upon.")
+@click.option("--tags", "-k", type=click.STRING, multiple=True, help="Keywords associated with the recipe.")
+def main(title, category, servings, active, total, rating, url, tags):
     # Retrieve local variables
     kwargs = locals()
     # Modify arguments before writing to template
     kwargs = {k: "" if v is None else v for k, v in kwargs.items()}
     kwargs["title"] = title.title()
+    kwargs["tags"] = ", ".join(tags)
 
     try:
         # Create template in category directory
         path = pl.Path(PARENT_FOLDER) / category
         path.mkdir(parents=True, exist_ok=True)
         path /= f"{'-'.join(title.lower().split())}.md"
-        path.touch(exist_ok=False)
+        if path.exists():
+            print(f"File {path} already exists!")
+            exit()
         logging.info(f"Creating file {path}...")
         template = TEMPLATE.format(**kwargs)
         logging.info(f"Writing template to {path}...")
+        path.touch(exist_ok=False)
         path.write_text(template)
         logging.info("Done!")
     except FileExistsError as error:
         # Fails if file (recipe) already exists
         logging.error(error)
+    # TODO: Anything else to catch?
 
 
 if __name__ == "__main__":
