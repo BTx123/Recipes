@@ -1,4 +1,5 @@
 ---
+path: /recipes
 category: drinks
 servings: 1
 active: 5

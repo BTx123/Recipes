@@ -25,6 +25,7 @@ DEFAULT_SETTINGS = {
 
 TEMPLATE = \
     """---
+path: /recipes
 category: {category}
 servings: {servings}
 active: {active}

@@ -1,4 +1,5 @@
 ---
+path: /recipes
 category: desserts
 servings: 25
 active: 45

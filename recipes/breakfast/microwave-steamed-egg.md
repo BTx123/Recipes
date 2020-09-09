@@ -1,4 +1,5 @@
 ---
+path: /recipes
 category: breakfast
 servings: 1
 active: 5

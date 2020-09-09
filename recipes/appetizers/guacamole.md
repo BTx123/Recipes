@@ -1,4 +1,5 @@
 ---
+path: /recipes
 category: appetizers
 servings: 4
 active: 10

@@ -1,6 +1,6 @@
 ---
+path: /recipes
 category: appetizers
-
 servings: 8
 total: 75
 active: 45
