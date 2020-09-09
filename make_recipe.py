@@ -8,7 +8,7 @@ import re
 logging.getLogger().setLevel(logging.INFO)
 
 SETTINGS_FILE = "settings.ini"
-
+PARENT_FOLDER = "recipes"
 CATEGORIES = "CATEGORIES"
 
 DEFAULT_SETTINGS = {
@@ -111,7 +111,7 @@ def main(title, category, servings, active, total, rating, url):
 
     try:
         # Create template in category directory
-        path = pl.Path(category)
+        path = pl.Path(PARENT_FOLDER) / category
         path.mkdir(parents=True, exist_ok=True)
         path /= f"{'-'.join(title.lower().split())}.md"
         path.touch(exist_ok=False)
