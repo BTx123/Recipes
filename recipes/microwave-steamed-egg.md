@@ -1,6 +1,6 @@
 ---
 path: /recipes/microwave-steamed-egg
-date: 2020-05-03T10:34:00.0000
+datetime: 2020-05-03T10:34:00.0000
 posttype: recipes
 title: Microwave Steamed Egg
 servings: 1

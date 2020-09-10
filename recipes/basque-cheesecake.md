@@ -1,6 +1,6 @@
 ---
 path: /recipes/basque-cheesecake
-date: 2020-05-26T08:33:00.0000
+datetime: 2020-05-26T08:33:00.0000
 posttype: recipes
 title: Basque Cheesecake
 servings: 25
