@@ -1,5 +1,6 @@
 ---
 path: /recipes/microwave-steamed-egg
+posttype: recipes
 title: Microwave Steamed Egg
 servings: 1
 active: 5

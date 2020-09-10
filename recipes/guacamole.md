@@ -1,5 +1,6 @@
 ---
 path: /recipes/guacamole
+posttype: recipes
 title: Guacamole
 servings: 4
 active: 10

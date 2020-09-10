@@ -1,5 +1,6 @@
 ---
 path: /recipes/basque-cheesecake
+posttype: recipes
 title: Basque Cheesecake
 servings: 25
 active: 45

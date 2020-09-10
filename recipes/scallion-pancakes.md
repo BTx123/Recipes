@@ -1,5 +1,6 @@
 ---
 path: /recipes/scallion-pancakes
+posttype: recipes
 title: Scallion Pancakes
 servings: 8
 total: 75

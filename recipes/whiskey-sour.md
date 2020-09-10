@@ -1,5 +1,6 @@
 ---
 path: /recipes/whiskey-sour
+posttype: recipes
 title: Whiskey Sour
 servings: 1
 active: 5

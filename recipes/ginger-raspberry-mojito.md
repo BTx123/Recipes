@@ -1,5 +1,6 @@
 ---
 path: /recipes/ginger-raspberry-mojito
+posttype: recipes
 title: Ginger Raspberry Mojito
 servings: 1
 active: 5

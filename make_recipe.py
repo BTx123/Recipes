@@ -26,6 +26,7 @@ DEFAULT_SETTINGS = {
 TEMPLATE = \
     """---
 path: {path}
+posttype: recipe
 title: {title}
 servings: {servings}
 active: {active}

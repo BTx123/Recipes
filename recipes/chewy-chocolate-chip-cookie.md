@@ -1,5 +1,6 @@
 ---
 path: /recipes/chewy-chocolate-chip-cookie
+posttype: recipes
 title: Chewy Chocolate Chip Cookie
 servings: 24
 active: 20
