@@ -1,5 +1,6 @@
 ---
 path: /recipes/scallion-pancakes
+date: 2020-05-01T01:30:00.0000
 posttype: recipes
 title: Scallion Pancakes
 servings: 8

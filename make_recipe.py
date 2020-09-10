@@ -1,10 +1,11 @@
 import configparser as cp
+import json
 import logging
 import pathlib as pl
-import click
 import re
-import json
+from datetime import datetime
 
+import click
 
 logging.getLogger().setLevel(logging.INFO)
 
@@ -26,6 +27,7 @@ DEFAULT_SETTINGS = {
 TEMPLATE = \
     """---
 path: {path}
+datetime: {datetime}
 posttype: recipe
 title: {title}
 servings: {servings}
@@ -122,10 +124,11 @@ def main(title, category, servings, active, total, rating, url, tags):
     kwargs = locals()
     # Modify arguments before writing to template
     kwargs = {k: "" if v is None else v for k, v in kwargs.items()}
-    kwargs["title"] = title.title()
-    tags = [category] + list(tags)
-    kwargs["tags"] = json.dumps(tags)
+    kwargs["datetime"] = datetime.now().isoformat()
     kwargs["path"] = '/' + path.as_posix()
+    kwargs["title"] = title.title()
+    kwargs["tags"] = json.dumps(tags)
+    tags = [category] + list(tags)
 
     try:
         # Create template in category directory

@@ -1,5 +1,6 @@
 ---
 path: /recipes/ginger-raspberry-mojito
+date: 2020-05-01T01:43:00.0000
 posttype: recipes
 title: Ginger Raspberry Mojito
 servings: 1

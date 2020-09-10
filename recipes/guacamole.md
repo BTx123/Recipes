@@ -1,5 +1,6 @@
 ---
 path: /recipes/guacamole
+date: 2020-05-08T17:03:00.0000
 posttype: recipes
 title: Guacamole
 servings: 4

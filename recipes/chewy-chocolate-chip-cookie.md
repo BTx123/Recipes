@@ -1,5 +1,6 @@
 ---
 path: /recipes/chewy-chocolate-chip-cookie
+date: 2020-09-09T17:05:00.0000
 posttype: recipes
 title: Chewy Chocolate Chip Cookie
 servings: 24

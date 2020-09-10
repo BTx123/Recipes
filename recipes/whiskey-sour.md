@@ -1,5 +1,6 @@
 ---
 path: /recipes/whiskey-sour
+date: 2020-05-26T08:33:00.0000
 posttype: recipes
 title: Whiskey Sour
 servings: 1
