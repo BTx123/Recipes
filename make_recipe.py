@@ -26,7 +26,7 @@ DEFAULT_SETTINGS = {
 TEMPLATE = \
     """---
 path: {path}
-category: {category}
+title: {title}
 servings: {servings}
 active: {active}
 total: {total}
@@ -89,9 +89,11 @@ class UrlParamType(click.ParamType):
 
         if match is None:
             self.fail(
-                "expected URL with HTTP protocol, got "
+                "expected URL with HTTP(S) protocol, got "
                 f"{value}"
             )
+
+        return match.string
 
 
 URL = UrlParamType()
@@ -101,14 +103,14 @@ URL = UrlParamType()
 @click.argument("title")
 @click.argument("category", type=click.Choice(CONFIG[CATEGORIES].keys()))
 @click.option("--servings", "-s", type=click.IntRange(min=1), default=1, help="Number of servings.")
-@click.option("--active", type=click.IntRange(min=0), help="Active cooking time.")
+@click.option("--active", "-a", type=click.IntRange(min=0), help="Active cooking time.")
 @click.option("--total", "-t", type=click.IntRange(min=0), help="Total cooking time.")
 @click.option("--rating", "-r", type=click.FloatRange(min=0, max=5), help="Rating for recipe.")
 @click.option("--url", "-u", type=URL, help="URL recipe was originally found at or based upon.")
 @click.option("--tags", "-k", type=click.STRING, multiple=True, help="Keywords associated with the recipe.")
 def main(title, category, servings, active, total, rating, url, tags):
     # Generate output path
-    path = pl.Path(PARENT_FOLDER) / category
+    path = pl.Path(PARENT_FOLDER)
     path.mkdir(parents=True, exist_ok=True)
     path /= f"{'-'.join(title.lower().split())}.md"
     # Skip file creation if it already exists
@@ -120,6 +122,7 @@ def main(title, category, servings, active, total, rating, url, tags):
     # Modify arguments before writing to template
     kwargs = {k: "" if v is None else v for k, v in kwargs.items()}
     kwargs["title"] = title.title()
+    tags = [category] + list(tags)
     kwargs["tags"] = json.dumps(tags)
     kwargs["path"] = '/' + path.as_posix()
 

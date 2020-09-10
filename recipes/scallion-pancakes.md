@@ -1,11 +1,12 @@
 ---
 path: /recipes/scallion-pancakes
-category: appetizers
+title: Scallion Pancakes
 servings: 8
 total: 75
 active: 45
 rating: 4
 url: https://whattocooktoday.com/chinese-scallion-pancakes.html
+tags: ["appetizers"]
 ---
 
 # Scallion Pancakes

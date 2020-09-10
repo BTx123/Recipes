@@ -1,12 +1,12 @@
 ---
 path: /recipes/guacamole
-category: appetizers
+title: Guacamole
 servings: 4
 active: 10
 total: 10
 rating: 5
-url: https://www.allrecipes.com/recipe/14231/guacamole/
-tags:
+url: https://www.allrecipes.com/recipe/14231/guacamole
+tags: ["appetizers"]
 ---
 
 # Guacamole

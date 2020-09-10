@@ -1,11 +1,12 @@
 ---
 path: /recipes/ginger-raspberry-mojito
-category: drinks
+title: Ginger Raspberry Mojito
 servings: 1
 active: 5
 total: 5
 rating: 4.5
-url: https://fitfoodiefinds.com/raspberry-ginger-mojitos/
+url: https://fitfoodiefinds.com/raspberry-ginger-mojitos
+tags: ["drinks"]
 ---
 
 # Ginger Raspberry Mojito

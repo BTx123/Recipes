@@ -1,12 +1,12 @@
 ---
 path: /recipes/chewy-chocolate-chip-cookie
-category: desserts
+title: Chewy Chocolate Chip Cookie
 servings: 24
 active: 20
 total: 100
 rating: 5.0
 url: https://tasty.co/recipe/the-best-chewy-chocolate-chip-cookies
-tags:
+tags: ["desserts"]
 ---
 
 # Chewy Chocolate Chip Cookie

@@ -1,11 +1,12 @@
 ---
 path: /recipes/microwave-steamed-egg
-category: breakfast
+title: Microwave Steamed Egg
 servings: 1
 active: 5
 total: 5
 rating: 3
 url: https://www.youtube.com/watch?v=fe3Vr8Pz-DM&t=11s
+tags: ["breakfast"]
 ---
 
 # Microwave Steamed Egg

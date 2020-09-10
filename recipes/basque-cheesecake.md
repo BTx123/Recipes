@@ -1,12 +1,12 @@
 ---
 path: /recipes/basque-cheesecake
-category: desserts
+title: Basque Cheesecake
 servings: 25
 active: 45
 total: 115
 rating: 5
 url: https://www.bonappetit.com/recipe/basque-burnt-cheesecake
-tags:
+tags: ["desserts"]
 ---
 
 # Basque Cheesecake

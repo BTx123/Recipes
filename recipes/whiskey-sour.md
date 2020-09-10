@@ -1,12 +1,12 @@
 ---
 path: /recipes/whiskey-sour
-category: drinks
+title: Whiskey Sour
 servings: 1
 active: 5
 total: 5
 rating: 4.5
 url: https://www.bonappetit.com/recipe/whiskey-sour
-tags:
+tags: ["drinks"]
 ---
 
 # Whiskey Sour
