@@ -1,5 +1,5 @@
 ---
-path: /recipes
+path: /recipes/guacamole
 category: appetizers
 servings: 4
 active: 10

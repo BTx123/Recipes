@@ -1,5 +1,5 @@
 ---
-path: /recipes
+path: /recipes/ginger-raspberry-mojito
 category: drinks
 servings: 1
 active: 5

@@ -1,5 +1,5 @@
 ---
-path: /recipes
+path: /recipes/chewy-chocolate-chip-cookie
 category: desserts
 servings: 24
 active: 20

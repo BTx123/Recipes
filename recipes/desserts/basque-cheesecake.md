@@ -1,5 +1,5 @@
 ---
-path: /recipes
+path: /recipes/basque-cheesecake
 category: desserts
 servings: 25
 active: 45

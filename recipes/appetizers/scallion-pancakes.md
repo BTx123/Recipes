@@ -1,5 +1,5 @@
 ---
-path: /recipes
+path: /recipes/scallion-pancakes
 category: appetizers
 servings: 8
 total: 75

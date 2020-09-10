@@ -1,5 +1,5 @@
 ---
-path: /recipes
+path: /recipes/whiskey-sour
 category: drinks
 servings: 1
 active: 5

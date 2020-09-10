@@ -1,5 +1,5 @@
 ---
-path: /recipes
+path: /recipes/microwave-steamed-egg
 category: breakfast
 servings: 1
 active: 5

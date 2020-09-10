@@ -25,7 +25,7 @@ DEFAULT_SETTINGS = {
 
 TEMPLATE = \
     """---
-path: /recipes
+path: {path}
 category: {category}
 servings: {servings}
 active: {active}
@@ -107,21 +107,24 @@ URL = UrlParamType()
 @click.option("--url", "-u", type=URL, help="URL recipe was originally found at or based upon.")
 @click.option("--tags", "-k", type=click.STRING, multiple=True, help="Keywords associated with the recipe.")
 def main(title, category, servings, active, total, rating, url, tags):
+    # Generate output path
+    path = pl.Path(PARENT_FOLDER) / category
+    path.mkdir(parents=True, exist_ok=True)
+    path /= f"{'-'.join(title.lower().split())}.md"
+    # Skip file creation if it already exists
+    if path.exists():
+        print(f"File {path} already exists!")
+        exit()
     # Retrieve local variables
     kwargs = locals()
     # Modify arguments before writing to template
     kwargs = {k: "" if v is None else v for k, v in kwargs.items()}
     kwargs["title"] = title.title()
     kwargs["tags"] = json.dumps(tags)
+    kwargs["path"] = '/' + path.as_posix()
 
     try:
         # Create template in category directory
-        path = pl.Path(PARENT_FOLDER) / category
-        path.mkdir(parents=True, exist_ok=True)
-        path /= f"{'-'.join(title.lower().split())}.md"
-        if path.exists():
-            print(f"File {path} already exists!")
-            exit()
         logging.info(f"Creating file {path}...")
         template = TEMPLATE.format(**kwargs)
         logging.info(f"Writing template to {path}...")
