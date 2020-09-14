@@ -11,8 +11,6 @@ url: https://www.youtube.com/watch?v=fe3Vr8Pz-DM&t=11s
 tags: ["breakfast"]
 ---
 
-# Microwave Steamed Egg
-
 Don't overcook the eggs!
 
 ## Tools

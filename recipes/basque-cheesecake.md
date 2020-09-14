@@ -11,8 +11,6 @@ url: https://www.bonappetit.com/recipe/basque-burnt-cheesecake
 tags: ["desserts"]
 ---
 
-# Basque Cheesecake
-
 I made the recipe in a 9-inch springform pan instead of a 10-inch, so I had extra batter. I poured batter to about 3/4 of the way up the springform pan, then poured the rest into muffin tins about 2/3 of the way up. In total, the recipe is enough for one cheesecake and 9 mini cheesecakes.
 
 ## Tools

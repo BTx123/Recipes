@@ -11,8 +11,6 @@ url: https://www.bonappetit.com/recipe/whiskey-sour
 tags: ["drinks"]
 ---
 
-# Whiskey Sour
-
 ## Tools
 
 * Cocktail Shaker

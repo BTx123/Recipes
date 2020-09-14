@@ -11,8 +11,6 @@ url: https://fitfoodiefinds.com/raspberry-ginger-mojitos
 tags: ["drinks"]
 ---
 
-# Ginger Raspberry Mojito
-
 ## Tools
 
 * knife

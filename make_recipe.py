@@ -38,8 +38,6 @@ url: {url}
 tags: {tags}
 ---
 
-# {title}
-
 ## Tools
 
 *

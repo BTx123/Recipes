@@ -11,8 +11,6 @@ url: https://www.allrecipes.com/recipe/14231/guacamole
 tags: ["appetizers"]
 ---
 
-# Guacamole
-
 ## Tools
 
 * knife

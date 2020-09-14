@@ -11,8 +11,6 @@ url: https://whattocooktoday.com/chinese-scallion-pancakes.html
 tags: ["appetizers"]
 ---
 
-# Scallion Pancakes
-
 ## Tools
 
 * plastic wrap/parchment paper

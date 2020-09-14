@@ -11,8 +11,6 @@ url: https://tasty.co/recipe/the-best-chewy-chocolate-chip-cookies
 tags: ["desserts"]
 ---
 
-# Chewy Chocolate Chip Cookie
-
 Letting the cookie dough rest overnight will make them more complex and richer in flavor. Don't skip this step!
 
 ## Tools
